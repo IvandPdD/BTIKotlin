@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mainInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200g"
+        android:gravity="center"
+        android:textSize="150sp"
+        android:layout_marginTop="150dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"/>
+
+    <TextView
+        android:id="@+id/secondaryInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Canela fina 25g \n Movidas varias 38g \n Historias de cosas 45g \n Otras tal 67g"
+        android:textSize="40sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
