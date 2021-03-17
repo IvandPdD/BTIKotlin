@@ -12,13 +12,13 @@
         android:name="com.example.btikotlin.DetailFragment"
         android:layout_width="500dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         tools:layout="@layout/fragment_detail" />
 
     <fragment
         android:id="@+id/list_fragment"
         android:name="com.example.btikotlin.ListFragment"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="match_parent"
         android:layout_marginStart="20dp"
         android:layout_weight="1"

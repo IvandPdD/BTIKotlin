@@ -7,27 +7,37 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/foodNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/doppio_one"
+        android:gravity="center"
+        android:textSize="30sp"
+        tools:text="Manzana" />
+
+
+    <TextView
         android:id="@+id/mainInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="200g"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/doppio_one"
         android:gravity="center"
-        android:textSize="150sp"
-        android:layout_marginTop="150dp"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="80dp"/>
+        android:textColor="#3454B5"
+        android:textSize="200sp"
+        tools:text="200g" />
 
     <TextView
         android:id="@+id/secondaryInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Canela fina 25g \n Movidas varias 38g \n Historias de cosas 45g \n Otras tal 67g"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/doppio_one"
+        android:lines="4"
+        android:textColor="#000000"
         android:textSize="40sp"
-        android:layout_gravity="center"/>
+        tools:text=" Canela fina 25g \n Movidas varias 38g \n Historias de cosas 45g \n Otras tal 67g" />
 
 </LinearLayout>

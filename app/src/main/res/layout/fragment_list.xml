@@ -4,12 +4,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ListFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/bggray">
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/searchView"
+    <LinearLayout
+        android:id="@+id/linearHorizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/micBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#F9F8FA"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_baseline_mic_24"/>
+
+    </LinearLayout>
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/searchRecycler"
